@@ -23,7 +23,7 @@ jsonpointer==3.0.0
 jsonschema==4.23.0
 jsonschema-specifications==2024.10.1
 langchain-core==0.3.28
-langchain-groq==0.0.4
+langchain-groq==0.2.3
 langgraph==0.2.60
 langgraph-checkpoint==2.0.9
 langgraph-sdk==0.1.48
