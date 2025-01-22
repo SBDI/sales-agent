@@ -5,7 +5,7 @@
 This project implements a **Smart Sales Agent** using **LangChain**, **LangGraph**, and **Streamlit**, powered by the **Groq API**. The agent assists customers with product inquiries, order placement, order tracking, and personalized recommendations. Sensitive actions, like creating orders, require human approval through a human-in-the-loop mechanism.
 
 <p align="center">
-  👉 Check out the <a href="Streamlit hosted Agent">Live App Here !</a> for a demo!
+  👉 Check out the <a href="[Streamlit hosted Agent](https://smartsalesagent.streamlit.app/)">Live App Here !</a> for a demo!
 </p>
 
 ---
