@@ -1,11 +1,8 @@
-Here’s a more concise version of your README:
 
----
-
-# 🛍️ Virtual Sales Agent
+# 🛍️ Smart Sales Agent
 
 
-This project implements a **Virtual Sales Agent** using **LangChain**, **LangGraph**, and **Streamlit**, powered by the **Groq API**. The agent assists customers with product inquiries, order placement, order tracking, and personalized recommendations. Sensitive actions, like creating orders, require human approval through a human-in-the-loop mechanism.
+This project implements a **Smart Sales Agent** using **LangChain**, **LangGraph**, and **Streamlit**, powered by the **Groq API**. The agent assists customers with product inquiries, order placement, order tracking, and personalized recommendations. Sensitive actions, like creating orders, require human approval through a human-in-the-loop mechanism.
 
 <p align="center">
   👉 Check out the <a href="Streamlit hosted Agent">Live App Here !</a> for a demo!
@@ -19,9 +16,8 @@ This project implements a **Virtual Sales Agent** using **LangChain**, **LangGra
 3. [🎯 Use Cases](#use-cases)
 4. [🗂️ Project Structure](#project-structure)
 5. [🚀 Get Started](#get-started)
-6. [🤝 Contributing](#contributing)
-7. [🔗 Related Resources](#related-resources)
-8. [🔮 Future Plans](#future-plans)
+6. [🔗 Related Resources](#related-resources)
+7. [🔮 Future Plans](#future-plans)
 
 ---
 
@@ -77,8 +73,8 @@ sales_agent/
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-username/sales-ai-agent-langgraph.git
-   cd sales-ai-agent-langgraph
+   git clone https://github.com/SBDI/sales-agent.git
+   cd sales-agent
    ```
 
 2. **Set Up Virtual Environment:**
@@ -109,15 +105,6 @@ sales_agent/
 
 ---
 
-## 🤝 Contributing
-
-Contributions are welcome! Follow these steps:
-1. Fork the repository and create a feature branch.
-2. Submit a pull request with clear changes.
-3. For bugs or feature requests, open an issue.
-
----
-
 ## 🔗 Related Resources
 
 - [LangChain Docs](https://python.langchain.com/docs/introduction/)
@@ -130,3 +117,5 @@ Contributions are welcome! Follow these steps:
 ## 🔮 Future Plans
 
 - Multi agentic system + Agentic RAG.
+- Modular Reasoning, Knowledge, and Language (MRKL).
+- User feedback collection.
