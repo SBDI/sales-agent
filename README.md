@@ -10,23 +10,20 @@ This project implements a **Smart Sales Agent** using **LangChain**, **LangGraph
 
 ---
 
-## 📑 Table of Contents
-1. [✨ Key Features](#key-features)
-2. [🛠️ Built With](#built-with)
-3. [🎯 Use Cases](#use-cases)
-4. [🗂️ Project Structure](#project-structure)
-5. [🚀 Get Started](#get-started)
-6. [🔗 Related Resources](#related-resources)
-7. [🔮 Future Plans](#future-plans)
-
----
-
 ## ✨ Key Features
 
 - **Product Inquiries:** Answer questions about availability, pricing, and stock.
 - **Order Placement:** Create new orders with human approval.
 - **Order Tracking:** Provide real-time order status updates.
 - **Personalized Recommendations:** Suggest products based on purchase history.
+
+---
+
+## 🎯 Use Cases
+
+- **E-commerce:** Streamline customer service and boost sales.
+- **Customer Support:** Automate routine tasks with user control.
+- **Sales Teams:** Offer personalized product recommendations.
 
 ---
 
@@ -37,14 +34,6 @@ This project implements a **Smart Sales Agent** using **LangChain**, **LangGraph
 - **SQLite:** Lightweight database for product and order data.
 - **Streamlit:** Interactive web interface.
 - **Groq API:** Fast and efficient natural language understanding.
-
----
-
-## 🎯 Use Cases
-
-- **E-commerce:** Streamline customer service and boost sales.
-- **Customer Support:** Automate routine tasks with user control.
-- **Sales Teams:** Offer personalized product recommendations.
 
 ---
 
@@ -60,7 +49,6 @@ sales_agent/
 └── setup_database.py  # Database initialization
 ```
 
----
 
 ## 🚀 Get Started
 
