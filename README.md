@@ -107,3 +107,22 @@ sales_agent/
 - Multi agentic system + Agentic RAG.
 - Modular Reasoning, Knowledge, and Language (MRKL).
 - User feedback collection.
+
+## Future Roadmap
+- Multi-Agent System
+
+- Specialized agents for returns/refunds
+
+- Supervisor agent for coordination
+
+- Advanced Analytics
+
+- Real-time sales dashboard
+
+Customer sentiment analysis
+
+Scalability Improvements
+
+Redis caching layer
+
+Async API processing
