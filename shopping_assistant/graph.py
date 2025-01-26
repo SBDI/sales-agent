@@ -12,14 +12,14 @@ from langgraph.prebuilt import tools_condition
 from typing_extensions import TypedDict
 from langchain_groq import ChatGroq  # Import ChatGroq
 
-from sales_agent.tools import (
+from shopping_assistant.tools import (
     check_order_status,
     create_order,
     get_available_categories,
     search_products,
     search_products_recommendations,
 )
-from sales_agent.utils import create_tool_node_with_fallback
+from shopping_assistant.utils import create_tool_node_with_fallback
 
 load_dotenv()
 

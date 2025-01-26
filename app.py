@@ -5,7 +5,7 @@ import streamlit as st
 from langchain_core.messages import AIMessage, HumanMessage
 from langchain_core.messages.tool import ToolMessage
 
-from sales_agent.graph import graph
+from shopping_assistant.graph import graph
 
 
 def set_page_config():

@@ -1,8 +1,8 @@
 
-# 🛍️ Smart Sales Agent
+# 🛍️ Shopping Assistant
 
 
-This project implements a **Smart Sales Agent** using **LangChain**, **LangGraph**, and **Streamlit**, powered by the **Groq API**. The agent assists customers with product inquiries, order placement, order tracking, and personalized recommendations. Sensitive actions, like creating orders, require human approval through a human-in-the-loop mechanism.
+This project implements a **Smart Shopping assistant** using **LangChain**, **LangGraph**, and **Streamlit**, powered by the **Groq API**. fu Sensitive actions, like creating orders, require human approval through a human-in-the-loop mechanism.
 
 <p align="center">
   👉 Check out the <a href="https://smartsalesagent.streamlit.app/">Live App Here !</a> for a demo!
@@ -40,13 +40,13 @@ This project implements a **Smart Sales Agent** using **LangChain**, **LangGraph
 ## 🗂️ Project Structure
 
 ```
-sales_agent/
+sopping-assistant/
 ├── database/          # Database setup and management
-├── sales_agent/       # Agent logic and tools
-├── main.py            # Streamlit app
+├── shopping_assistant/       # Agent logic and tools
+├── app.py            # Streamlit app
 ├── README.md          # This file
 ├── requirements.txt   # Project dependencies
-└── setup_database.py  # Database initialization
+└── database_init.py  # Database initialization
 ```
 
 
@@ -61,7 +61,7 @@ sales_agent/
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/SBDI/sales-agent.git
+   git clone https://github.com/SBDI/shopping-assistant.git
    cd sales-agent
    ```
 
@@ -83,12 +83,12 @@ sales_agent/
 
 5. **Initialize Database:**
    ```bash
-   python3 setup_database.py
+   python3 database_init.py
    ```
 
 6. **Run the App:**
    ```bash
-   streamlit run main.py
+   streamlit run app.py
    ```
 
 ---
@@ -119,10 +119,10 @@ sales_agent/
 
 - Real-time sales dashboard
 
-Customer sentiment analysis
+- Customer sentiment analysis
 
-Scalability Improvements
+- Scalability Improvements
 
-Redis caching layer
+- Redis caching layer
 
-Async API processing
+- Async API processing
