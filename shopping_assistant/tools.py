@@ -1,7 +1,7 @@
 from datetime import datetime
 from decimal import Decimal
 #from itertools import product #Removed this line
-from typing import Any, Dict, List, Optional, Union, TypedDict #Added TypedDict
+from typing_extensions import Any, Dict, List, Optional, Union, TypedDict #Added TypedDict
 
 from langchain_core.runnables import RunnableConfig
 from langchain_core.tools import tool

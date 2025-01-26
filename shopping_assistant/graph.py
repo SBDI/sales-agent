@@ -1,6 +1,6 @@
 import os
 from datetime import datetime
-from typing import Annotated
+from typing_extensions import Annotated
 
 from dotenv import load_dotenv
 from langchain_core.prompts import ChatPromptTemplate
