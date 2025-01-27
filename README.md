@@ -5,7 +5,7 @@
 This project implements a **Smart Shopping assistant** using **LangChain**, **LangGraph**, and **Streamlit**, powered by the **Groq API**. fu Sensitive actions, like creating orders, require human approval through a human-in-the-loop mechanism.
 
 <p align="center">
-  👉 Check out the <a href="https://smartsalesagent.streamlit.app/">Live App Here !</a> for a demo!
+  👉 Check out the <a href="https://shopping-assistant1.streamlit.app/">Live App Here !</a> for a demo!
 </p>
 
 ---
