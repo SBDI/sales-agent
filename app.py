@@ -57,8 +57,8 @@ def setup_sidebar():
     """Configure the sidebar with agent information and controls."""
     with st.sidebar:
         st.image("assets/avatar.jpg", width=100)        # Add a status indicator
-        st.title("Smart Sales Agent")
-        st.success("🟢 ------------Ready!------------")
+        st.title("Smart Shopping Assistant")
+        st.success("Online & Ready to assist 🟢")
         st.markdown("---")
         if st.button("🔄 Start New Chat", use_container_width=True):
             for key in list(st.session_state.keys()):
