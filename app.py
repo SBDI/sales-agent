@@ -10,7 +10,7 @@ from shopping_assistant.graph import graph
 
 def set_page_config():
     st.set_page_config(
-        page_title="Sales Agent",
+        page_title="Shopping Assistant",
         layout="wide",
         initial_sidebar_state="expanded",
     )
