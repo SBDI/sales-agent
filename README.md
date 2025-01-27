@@ -1,4 +1,5 @@
 
+![shopping-assistant diagram](https://github.com/user-attachments/assets/2c858c15-b268-49df-8000-25beb292f11c)
 # 🛍️ Shopping Assistant
 
 
