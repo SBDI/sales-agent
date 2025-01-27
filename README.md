@@ -62,19 +62,20 @@ sopping-assistant/
 1. **Clone the Repository:**
    ```bash
    git clone https://github.com/SBDI/shopping-assistant.git
-   cd sales-agent
+   cd shopping-assistant
    ```
 
 2. **Set Up Virtual Environment:**
+- uv is recommended !
    ```bash
-   python3 -m venv venv
-   source venv/bin/activate    # Linux/Mac
+   uv venv --python 3.12
    venv\Scripts\activate       # Windows
+   source venv/bin/activate    # Linux/Mac       
    ```
 
 3. **Install Dependencies:**
    ```bash
-   pip install -r requirements.txt
+   uv pip install -r requirements.txt
    ```
 
 4. **Configure Environment:**
@@ -83,7 +84,7 @@ sopping-assistant/
 
 5. **Initialize Database:**
    ```bash
-   python3 database_init.py
+   python database_init.py
    ```
 
 6. **Run the App:**
@@ -102,27 +103,13 @@ sopping-assistant/
 
 ---
 
-## 🔮 Future Plans
+## Future Roadmap
 
-- Multi agentic system + Agentic RAG.
+- Multi-Agent System
 - Modular Reasoning, Knowledge, and Language (MRKL).
 - User feedback collection.
-
-## Future Roadmap
-- Multi-Agent System
-
 - Specialized agents for returns/refunds
-
-- Supervisor agent for coordination
-
-- Advanced Analytics
-
-- Real-time sales dashboard
-
 - Customer sentiment analysis
-
 - Scalability Improvements
-
 - Redis caching layer
-
 - Async API processing
