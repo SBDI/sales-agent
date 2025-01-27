@@ -58,7 +58,7 @@ def setup_sidebar():
     with st.sidebar:
         st.image("assets/avatar.jpg", width=100)        # Add a status indicator
         st.title("Smart Shopping Assistant")
-        st.success("Online & Ready to assist 🟢")
+        st.success("🟢 Online & Ready to assist ")
         st.markdown("---")
         if st.button("🔄 Start New Chat", use_container_width=True):
             for key in list(st.session_state.keys()):
@@ -77,7 +77,6 @@ def setup_sidebar():
             
         if st.button("🎯 Get Recommendations", use_container_width=True):
             st.session_state.input_value = st.session_state.config["configurable"]["recommend_prompt"]
-
         st.markdown("---")
         st.markdown(
             """
@@ -97,9 +96,8 @@ def display_chat_history():
         st.markdown(
             """
             <div style='text-align: center; padding: 30px;'>
-                <h1>👋 Welcome!</h1>
-                <p>How can I assist you today?</p>
-                 <p>Browse / Recommand products || Place / Track orders</p>
+                <h1>👋 Welcome To our Online store !</h1>
+                <p>I assist you to search products, Place and Track orders, and give you my best recommandations !</p>
             </div>
             """,
             unsafe_allow_html=True,
